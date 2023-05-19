@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backBlue"
+    tools:context=".ProfileFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:background="@drawable/buttonrecor"
+        android:backgroundTint="@color/white">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/StaffImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pr1"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/staffName"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/StaffImage"
+            android:text="Staff Name"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:id="@+id/StaffId"
+            android:layout_below="@+id/staffName"
+            android:text="Staff id"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/staffgmail"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/StaffId"
+            android:text="StaffGmail"
+            android:textAlignment="center"
+            />
+    </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

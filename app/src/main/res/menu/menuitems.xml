@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:icon="@drawable/baseline_home_24"
+            android:id="@+id/ithome"
+            android:title="Home"/>
+        <item
+            android:icon="@drawable/baseline_person_24"
+            android:id="@+id/itprofile"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/itSync"
+            android:title="Sync"
+            android:icon="@drawable/baseline_sync_24"/>
+
+        <item
+            android:icon="@drawable/baseline_login_24"
+            android:id="@+id/itLogout"
+            android:title="Logout"/>
+
+    </group>
+</menu>
